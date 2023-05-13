@@ -1,0 +1,8 @@
+import os
+import sys
+
+myfiles  = open(os.path.join(sys.path[0], 'number.txt'), 'r')
+read_file = myfiles.read()
+print(read_file)
+myfiles.close()
+
